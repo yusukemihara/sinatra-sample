@@ -1,0 +1,7 @@
+%html
+  %head
+  %body
+    %p= "西暦和暦変換"
+    %form{:action => "/wareki",:method => "post"}
+      %input{:type => "text",:name => "seireki"}
+      %input{:type => "submit"}
